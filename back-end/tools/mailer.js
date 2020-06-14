@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 
 module.exports = async function main(tomail) {
   const mailOptions = {
-    from: '"验证邮件，无需回复。" <574790158@qq.com>',
+    from: '"验证邮件，无需回复。" <*********@qq.com>',
     to: tomail,
     subject: '验证码',
     html: `<b>${Math.random().toString().slice(-6)}</b>`
