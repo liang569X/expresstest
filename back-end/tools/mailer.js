@@ -12,8 +12,8 @@ module.exports = async function main(tomail) {
     port: 465,
     secureConnection: true,
     auth: {
-      user: '574790158@qq.com',
-      pass: 'ensoowwwiyotbdbb'
+      user: '*********@qq.com',
+      pass: '********'
     }
   });
   return new Promise((resolve, reject) => {
